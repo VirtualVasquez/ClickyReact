@@ -1,0 +1,15 @@
+header p{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    Font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left:0;
+}
