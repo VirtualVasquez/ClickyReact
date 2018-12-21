@@ -1,15 +1,16 @@
 header p{
     display: inline-block;
-    width: 33%;
+    width:33%;
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 header{
     background-color: blue;
     color: white;
-    Font-size: 20px;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0; */
     width: 100%;
-    left:0;
+    /* left:0; */
 }
