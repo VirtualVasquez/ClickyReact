@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import './Footer.css'
+import './Game.css'
 
-const Game = props => <div className="game"></div>;
+const Game = props => <div className="game">{props.children}</div>;
 
 
 export default Game

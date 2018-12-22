@@ -1,0 +1,73 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #clickHolder{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2.5%
+    }
+    .clickItem {
+        width: 100%;
+        padding-bottom: 100%;
+        margin: 5%;
+        display: inline-block;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #clickHolder{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 2.5%
+    }
+    .clickItem {
+        width: 45%;
+        padding-bottom: 45%;
+        margin: 2.5%;
+        display: inline-block;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #clickHolder{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 2.5%
+    }
+    .clickItem {
+        width: 30%;
+        padding-bottom: 30%;
+        margin: 1.5%;
+        display: inline-block;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #clickHolder{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .clickItem {
+        width: 22.5%;
+        padding-bottom: 22.5%;
+        margin: 1.25%;
+        display: inline-block;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #clickHolder{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .clickItem {
+        width: 22%;
+        padding-bottom: 22%;
+        margin: 1.5%;
+        display: inline-block;
+    }
+}
