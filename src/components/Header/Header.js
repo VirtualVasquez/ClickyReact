@@ -1,11 +1,11 @@
-import React, { Component } from "react"
+import React from "react"
 import './Header.css'
 
 const Header = props => (
     <header>
-    <p>Clicky Game</p>
-    <p >{props.message}</p>
-    <p>Score: {props.curScore} | Top Score: {props.topScore}</p>
+    <h3>Clicky Game</h3>
+    <h3>{props.message}</h3>
+    <h3>Score: {props.curScore} | Top Score: {props.topScore}</h3>
     </header>
 )
 

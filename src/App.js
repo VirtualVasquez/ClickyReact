@@ -32,7 +32,7 @@ class App extends Component {
       //failure to select a new reploid, resetting for new round
       this.setState({
         message: "You guessed incorrectly!",
-        topScore: (this.state.curScore > this.state.topscore) ? this.state.curScore : this.state.topScore,
+        topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
         curScore: 0,
         characters: characters,
         unselectedCharacters: characters
@@ -40,7 +40,7 @@ class App extends Component {
     }
     else {
       //successfullly picked a new character
-      const newReploids = this.state.unselectedCharacters.filter(item => item.reploid !==reploid);
+      const newReploids = this.state.unselectedCharacters.filter(item => item.reploid !== reploid);
 
       this.setState({
         message: "You guessed correctly!", 
@@ -49,7 +49,6 @@ class App extends Component {
         unselectedCharacters: newReploids
       });
     }
-
     this.shuffleArray(characters);
   }
 
@@ -68,6 +67,7 @@ class App extends Component {
         {
           this.state.characters.map(character => (
             <ClickItem
+              key={character.reploid}
               reploid={character.reploid}
               image={character.image}
               selectCharacter={this.selectCharacter}

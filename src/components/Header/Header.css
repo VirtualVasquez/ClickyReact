@@ -1,4 +1,4 @@
-header p{
+header h3{
     display: inline-block;
     width:33%;
     text-align: center;
@@ -9,8 +9,10 @@ header p{
 header{
     background-color: blue;
     color: white;
-    /* position: fixed; */
-    /* top: 0; */
     width: 100%;
-    /* left:0; */
+    padding: 1%;
+    position: fixed;
+    display: block;
 }
+
+
