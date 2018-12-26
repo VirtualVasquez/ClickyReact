@@ -16,3 +16,31 @@ header{
 }
 
 
+.desc-correct {
+    animation: toGreen 0.3s;
+    animation-iteration-count: 1;
+    color: #0f0;
+}
+
+.desc-incorrect {
+    animation: toRed 0.3s;
+    animation-iteration-count: 1;
+    color: #f00;
+}
+
+
+@keyframes toGreen{
+    from {color: #fff;}
+    to {color: #0f0;}
+    /* from {color: #0f0;}
+    to {color: #fff;} */
+}
+
+@keyframes toRed{
+    from {color: #0f0;}
+    to {color: #f00;}
+    /* from {color: #f00;}
+    to {color: #fff;} */
+}
+
+
