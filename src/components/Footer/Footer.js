@@ -3,9 +3,7 @@ import './Footer.css'
 
 const Footer = props => (
             <footer>
-                <div id="bottom">
-                    <p>Clicky Game!</p>
-                </div>
+                <p>Clicky Game!</p>
             </footer>
 )
 
